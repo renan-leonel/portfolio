@@ -1,6 +1,9 @@
 <template>
-  <Start/>
-  <Projects/>
+  <div>
+    <Start/>
+    <Projects/>
+  </div>
+
 </template>
 
 <script>
