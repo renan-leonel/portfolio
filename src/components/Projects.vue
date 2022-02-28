@@ -132,9 +132,10 @@
         transition: opacity 0.5s;
     }
 
-    .image_overlay:hover{
+    .image_overlay:hover, .image_overlay:active{
         opacity: 1;
     }
+    
 
     .image_overlay > *{
         transform : translateY(2rem);
