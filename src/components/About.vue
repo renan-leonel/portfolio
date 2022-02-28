@@ -1,9 +1,9 @@
 <template>
-    <div class="container vh-100">
+    <div class="container">
         <div class="row vh-100">
             <div class="col-md-8 about">
                 <h2>about me</h2>
-                <p>hi! i'm in my last year at university at <span>State University of Maringá</span> and mainly focusing on my internship and personal projects</p>
+                <p>hi! i'm in my last year at university at <span>State University of Maringá</span> and mainly focusing on my internship and personal projects.</p>
                 <p>i'm also interested in the entire front-end ecosystem and researching about new <span>blockchain</span> and <span>web 3.0</span> technologies.</p>
                 <p>in my free time, i love playing fantasy games <span class="likes">(big soulsborne fan here)</span> and reading.</p>
             </div>
@@ -25,6 +25,10 @@ export default {
         display: flex;
         align-items: center;
     }
+    .about{
+        text-align: justify;
+        text-justify: inter-word;
+    }
     .profilePic{
         padding-left: 5rem;
     }
@@ -33,22 +37,23 @@ export default {
         width: 15rem;
         border-radius: 1rem;
     }
-    span, h2, .work{
+    p{
+        text-align:justify;
+        text-justify: inter-character;
+    }
+    span, h2{
         font-weight: 700;
         color: #1664b1;
     }
     h2{
         padding-bottom: 4rem;
     }
-    .work{
-        text-decoration: none;
-    }
     .likes{
         font-weight: 200;
         color: #8f8f8f;
         font-family: 'Nanum Pen Script', cursive;;
     }
-    @media (max-width: 850px) {
+    @media (max-width: 900px) {
         .container{
             padding: 0 2rem;
         }
@@ -60,5 +65,16 @@ export default {
         h2{
             padding-bottom: 2rem;
         }   
+    }
+    @media (max-width: 700px){
+        .about{
+            padding: 0 3rem;
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
     }
 </style>

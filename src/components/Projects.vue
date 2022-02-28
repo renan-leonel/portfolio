@@ -89,12 +89,11 @@
     }
 
     .warriors, .portfolio{
-        /* display: block; */
         width: 100%;
     }
 
     img{
-        height: 30rem;
+        height: 25rem;
         border-radius: 1rem;
         object-fit: cover;
     }
@@ -109,7 +108,6 @@
 
     .img_warriors, .img_portfolio{
         position: relative;
-        /* border: 1px solid #bebebe; */
         border-radius: 1rem;
         margin-bottom: 4rem;
     }
@@ -170,6 +168,24 @@
 
         .row{
             padding: 0 2rem;
+        }
+
+        .image_title{
+            font-size: 1.5rem;
+        }
+
+        .image_description, .stack{
+            font-size: 1rem;
+        }
+
+        .stack{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    @media (max-width: 700px){
+        h3{
         }
     }
 
