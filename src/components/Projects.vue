@@ -9,7 +9,7 @@
                     <img class="warriors" src="../assets/warriors.png" alt="Cardano Warriors">
                     <div class="image_overlay">
                         <div class="image_title">Cardano Warriors</div>
-                        <p class="image_description">Worked in the development of the main website for the play-to-earn NFT game Cardano Warriors</p>
+                        <p class="image_description">Working in the development of the main website for the play-to-earn NFT game Cardano Warriors</p>
                         <div class="stack">
                             <p class="col-md-6">
                                 <i class="fa-brands fa-vuejs"></i>

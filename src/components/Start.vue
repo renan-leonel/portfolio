@@ -2,9 +2,9 @@
     <div class="container vh-100 animate__animated animate__fadeInUpBig">
         <div class="row">
             <div class="col-md-8 about">
-                <h1 class="animate__animated animate__bounce animate__delay-2s">hi, i'm Renan Leonel</h1>
-                <p>i'm a <span class="animate__animated animate__bounce animate__delay-3s">front-end developer</span>  located in Brazil. i have huge interest on dynamic and intuitive web applications, using beautiful <span class="animate__animated animate__bounce animate__delay-4s">animations</span> and visual effects.</p>
-                <p>currently working at <a class="work animate__animated animate__bounce animate__delay-5s" href="https://www.linkedin.com/company/cardano-warriors" target="_blank">Cardano Warriors</a> as a front-end developer intern.</p>
+                <h1 class="animate__animated animate__bounce animate__delay-2s">hi, I'm Renan Leonel</h1>
+                <p>I'm a <span class="animate__animated animate__bounce animate__delay-3s">front-end developer</span>  located in Brazil. I have huge interest on dynamic and intuitive web applications, using beautiful <span class="animate__animated animate__bounce animate__delay-4s">animations</span> and visual effects.</p>
+                <p>Currently working at <a class="work animate__animated animate__bounce animate__delay-5s" href="https://www.linkedin.com/company/cardano-warriors" target="_blank">Cardano Warriors</a> as a front-end developer intern.</p>
             </div>
             <div class="col-md-4 profilePic">
                 <img class="img animate__animated animate__rollIn animate__delay-2s" src="../assets/renan_pixel.png" alt="Renan Leonel">
